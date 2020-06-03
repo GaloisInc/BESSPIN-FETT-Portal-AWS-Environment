@@ -1,5 +1,5 @@
 # Usage
-`python test.py -r "us-west-2" -n 6 -v 124356` <br/>
+`python build-subnets.py -r us-west-2 -n 6 -v 123546` <br/>
 `-r | region` Which region to build subnets in <br/>
 `-n | numUsers` Number of subnets to build <br/>
 `-v | vpcId` VPC ID to attach subnets to <br/>

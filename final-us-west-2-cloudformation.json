@@ -1,0 +1,60 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09", 
+  "Description": "Cloudformation to create fett portal user subnets", 
+  "Resources": {
+    "userSubnet-1": {
+      "Type": "AWS::EC2::Subnet", 
+      "Properties": {
+        "VpcId": "west-456", 
+        "CidrBlock": [
+          "10.0.0.0/24"
+        ]
+      }
+    }, 
+    "userSubnet-3": {
+      "Type": "AWS::EC2::Subnet", 
+      "Properties": {
+        "VpcId": "west-456", 
+        "CidrBlock": [
+          "10.0.0.16/24"
+        ]
+      }
+    }, 
+    "userSubnet-2": {
+      "Type": "AWS::EC2::Subnet", 
+      "Properties": {
+        "VpcId": "west-456", 
+        "CidrBlock": [
+          "10.0.0.8/24"
+        ]
+      }
+    }, 
+    "userSubnet-5": {
+      "Type": "AWS::EC2::Subnet", 
+      "Properties": {
+        "VpcId": "west-456", 
+        "CidrBlock": [
+          "10.0.0.32/24"
+        ]
+      }
+    }, 
+    "userSubnet-4": {
+      "Type": "AWS::EC2::Subnet", 
+      "Properties": {
+        "VpcId": "west-456", 
+        "CidrBlock": [
+          "10.0.0.24/24"
+        ]
+      }
+    }, 
+    "userSubnet-6": {
+      "Type": "AWS::EC2::Subnet", 
+      "Properties": {
+        "VpcId": "west-456", 
+        "CidrBlock": [
+          "10.0.0.40/24"
+        ]
+      }
+    }
+  }
+}

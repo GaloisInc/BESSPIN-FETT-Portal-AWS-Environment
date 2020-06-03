@@ -3,9 +3,9 @@ import sys
 import getopt
 def main(argv):
   try:
-    opts, args = getopt.getopt(argv,"r:n:",["region=", "numUsers="])
+    opts, args = getopt.getopt(argv,"r:n:v:",["region=", "numUsers=", "vpcId="])
   except getopt.GetoptError:
-    print('test.py -r <region>')
+    print('test.py -r <region> -n <numUsers> -v <vpcId>')
     sys.exit(2)
   for opt, arg in opts:
     if opt not in ("-r", "--region", "-n", "--numUsers",  "-v", "--vpcId"):

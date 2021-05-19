@@ -1,4 +1,6 @@
-# Usage
+# BESSPIN FETT AWS Subnet Build
+
+## Usage
 `python build-subnets.py -r us-west-2 -n 6 -v 123546` <br/>
 `-r | region` Which region to build subnets in <br/>
 `-n | numUsers` Number of subnets to build <br/>
